@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* cores tiradas paleta adobe explorar:https://color.adobe.com/pt/search?q=tempo */
+    background: linear-gradient(#056CF2, #0583F2);
+}
+h1 {
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+#climaTempo {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 10px;
+    text-align: center;
+    /* box-shadow: deslocamento em x, deslocamento em y, desfoque, expansão cod. cor e intensidade */
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.2)
+}
+#climaTempo p {
+    font-size: .75rem;
+
+}
+#formulario {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    padding: 5px 10px;
+    gap: 5px;
+    border: solid 1px #dddddd;
+    border-radius: 10px;
+}
+#formulario input {
+    font-size: 1rem;
+    border: none;
+    background-color: transparent;
+    width: 100%;
+
+}
+#formulario input:focus-visible {
+    outline: none;
+}
+#formulario button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+#containerResultado {
+    /* background-color: red; */
+    margin-top: 10px;
+    padding: 5px;
+}
+#containerResultado #cidade p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+/* #descricao {
+    
+    
+} */
+#descricao #temp {
+    font-size: 3rem;
+    font-weight: 600;
+}
+#descricao #situacaoClima {
+    font-size: 1rem;
+    font-weight: 400;
+}
+#info {
+    display: flex;
+    justify-content:center;    
+    gap: 20px;
+}
+#info p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+footer {
+    padding: 10px;
+    font-size: .75rem;
+    color: #fff;
+}
+/* ":" 
+Os dois-pontos (:) após o seletor em CSS são usados para aplicar pseudo-classes e pseudo-elementos. Eles permitem selecionar elementos com base em seu estado, posição no documento, ou para criar e estilizar partes de elementos que não estão explicitamente presentes no DOM. */

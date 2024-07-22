@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Clima DevStars Tech</title>
+</head>
+<body>
+    <section id="climaTempo">
+        <h1>Clima DevStars Tech</h1>
+        <p id="descTitulo">Descubra como esta o clima na sua cidade</p>
+        <form id="formulario">
+            <!-- <label for="cidadeInput">Digite o nome da cidade:</label> -->
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" id="cidadeInput" name="cidadeInput" placeholder="Buscar cidade">
+            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <div id="containerResultado">
+            <div id="cidade">
+                <p></p>
+            </div>
+            <div id="descricao">
+                <p id="temp"></p>
+                <p id="situacaoClima"></p>
+            </div>
+            <div id="info">
+                <p id="tempMax"></p>
+                <p id="tempMin"></p>
+            </div>
+            
+        </div>
+    </section>
+    <footer>
+        <p>Desenvolvido por: <a href="https://github.com/Wagno-Hugo" target="_blank">Wagno Hugo</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
